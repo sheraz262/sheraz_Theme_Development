@@ -1,0 +1,220 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Bree+Serif&family=Lato:wght@300;700;900&family=Montserrat:wght@300;400;600;700&family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Bree+Serif&family=Lato:wght@300;700;900&family=Montserrat:wght@300;400;600;700&family=Open+Sans:wght@600&family=Quattrocento+Sans:wght@700&display=swap');
+
+
+*{padding: 0; margin: 0; box-sizing: border-box;
+outline:;}
+
+.main-header{ padding: 20px 130px;
+
+				background:#1d2126; }
+
+
+
+.menue{ list-style: none;padding: 0px; margin: 0px; }
+
+ul.menue li{ padding: 0px 0px;
+			text-align: center;
+}
+ul.menue li a{ text-decoration: none;
+				color: #a4aead;
+				display: block;
+				font-size: 14px;
+				padding: 10px;
+			
+
+				
+
+}
+ul.menue li a:hover{ color:#23b7a4;
+					border:1px solid #23b7a4;
+				
+				
+}
+
+
+
+
+
+/*WELCOME SECTION*/
+img{ max-width: 100%; }
+
+.welcom{ font-family: 'Quattrocento Sans', sans-serif;
+		font-size: 24px;
+		color:white;text-transform: uppercase; 
+		margin-top: 0px;
+		max-width: 100%;}
+
+.welcome-p{font-size: 16px;
+			color: #ccd0d7;
+			font-family: 'Open Sans', sans-serif;
+		}
+
+.b1{ background: none !important; 
+		padding: 13px 15px;margin-right: 10px !important;
+		border-style: none;
+		border:3px solid white;
+		border-radius: 8px !important;
+		margin-top:0px !important;
+		color: white;font-family: 'Quattrocento Sans', sans-serif;}
+
+.b2{ background: none !important; 
+		padding: 13px 15px;
+		border-style: none;
+		border:3px solid white;
+		border-radius: 8px !important;
+		margin-top: 10px !important;
+		color: white;font-family: 'Quattrocento Sans', sans-serif;}
+
+.btn{padding-: 0px;}
+
+.btn .b1:hover{ background:#23b7a4 !important;
+				border-radius: 5px;
+				color: white; border:none;}
+
+.
+
+.btn .b2:hover{}
+
+
+.icons{    margin-top: 5px !important;
+
+		}
+
+.icons ul{list-style-type: none;
+			padding: 0px;
+			margin: 0px;
+			}
+.icons ul li{display: inline;
+			}
+.icons ul li a i{ background:#c8cdd0;width:70px;height: 70px;
+				text-align: center;line-height: 70px;
+				font-size: 30px;
+				
+				
+				 }
+.icons ul li:first-child{}
+
+.icons ul li a{text-decoration: none;color: white;	
+				
+			}
+
+.icons ul li a i:hover{background-color: #d0d5d9;}
+
+.divbox{ line-height: 50px; width: 50px; height: 50px;text-align: center;
+			background: #23b7a4;color: white; }
+
+					
+.modest h1{font-size: 36px;}
+
+h5 {font-family: 'Quattrocento Sans', sans-serif;
+			color:#292f36; font-size: 18px;}
+ p{ font-family: 'Open Sans', sans-serif;color: #8d8f92;
+ 		}
+
+ .cardbody{ background-color: #e1e6ea; }
+
+ .cardbody2{background-color: #3a454d;}
+
+.socialicons a{ text-decoration: none;
+
+				 }
+
+.socialicons a i{ 
+					width: 50px;
+					height: 50px;
+					line-height:50px; 
+					text-align: center; 
+					color: white;
+					background: #3a454d;}
+
+.overposition{ top: 50px !important;
+				left: 5px !important; }
+
+.socialicons a i:hover{background-color: #4e5a62;}
+
+
+ .cardimg{margin-right: 10px !important;
+ 		margin-left: 10px !important;
+ 		}
+
+.cardcontainer{ padding: 0px 30px !important; }
+
+.leftborder{ border-left: 8px solid #e1e6ea; }
+
+h5.team{margin-bottom: 50px !important ;}
+.leftborder3{border-left: 8px solid #4e5a62;}
+
+.bg-color{background: #3a454d;  }
+
+.gallery-hding{ margin-left: 90px; }
+.gallery{
+				display: grid;
+				grid-template-columns: auto auto auto;
+				grid-gap: 20px;
+				
+				justify-content: space-between;
+				
+}
+
+
+.gallery > div {
+				max-width: 500px;
+				 height:auto;
+				 margin-left: 0px;
+						 
+					}
+.smallimg{	
+			max-width: ;
+			height: 150px;}
+
+.cardalign{ height: 20px !important 
+			
+				}
+
+.item-1{ border-radius: 0px !important;
+			border:none !important;
+		margin-right: 20px; }
+
+.services i{ font-size: 50px;
+			color: #23b7a4;
+			padding-bottom: 30px !important;
+			margin-top: 50px; }
+
+.services-child h4{ font-size: 17px;
+
+					font-family: 'Quattrocento Sans', sans-serif;
+					padding-bottom: 15px; }
+
+.cardbg{ background:none !important; }
+
+.color-h5 h5, .color-h5 p{ color: white; }
+
+@media only screen and (min-width: 700px){
+
+.welcome-p{ max-width: 100%;}
+
+.cardposition{ 	
+			position: absolute !important;
+			top: 0px !important;
+			left:100px !important; }
+	}
+@media only screen and (min-width: 992px){
+
+
+	ul.menue li{ display:inline !important;
+}
+ul.menue li a{ 
+				display: inline;
+	
+}
+.cardposition{ 	
+			position: absolute !important;
+			top: 50px !important;
+			left:120px !important; 
+		}
+
+.welcome-p{ max-width: 50%;}
+}
+
