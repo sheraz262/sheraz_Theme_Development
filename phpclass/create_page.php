@@ -11,8 +11,8 @@ include 'connection.php';
 // input field
 
 // FETCH DATA FROM THE FIELDS post data should be equal to field name
-$title = $_POST['page-title'];
-$description  = $_POST['page-desc'];
+$title = $_POST ['ptitle'];
+$description  = $_POST ['pdes'];
 
 echo "<br> $title";
 echo "<br> $description";
@@ -21,7 +21,7 @@ echo "<br> $description";
 
 // now use insert query
 
-$insert = "INSERT INTO papges(page_title, page_description)
+$insert = "INSERT INTO pages(p_title, p_description)
            VALUES('$title', '$description')";
 
 if(mysqli_query($connect, $insert)){
@@ -30,4 +30,5 @@ if(mysqli_query($connect, $insert)){
     echo 'there is an error';
 }
 ?>
+
 
