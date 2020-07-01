@@ -23,16 +23,16 @@
         when it is submitted it will go to createpage.php-->
             <form  action="create_page.php" method="post">
                 <div class="form-group">
-                    <label for="page-id">Enter Your Name</label>
+                    <label for="ptitle">Enter Your Name</label>
                     <!-- we will fetch values by given name attribute with
                     the same name of your coloumns that you have created 
                     in create-table.php file. -->
-                    <input type="text" class="form-control" id="page_id"  name="page-title" placeholder="Enter Your Name">
+                    <input type="text" class="form-control" id="ptitle"  name="ptitle" placeholder="Enter Your Name">
                 </div>
 
                 <div class="form-group">
-                    <label for="page-desc">Descriptions</label>
-                    <textarea class="form-control" name="page-desc" id="page_id"  placeholder="Message" rows="3"></textarea>
+                    <label for="pdes">Descriptions</label>
+                    <textarea class="form-control" name="pdes" id="pdes"  placeholder="Message" rows="3"></textarea>
                 </div>
 
                 <button type="submit" class="btn btn-primary mb-2">Submit</button>
